@@ -13,7 +13,7 @@ To use this theme, choose one of the following options to get started:
 
 ## Creator
 
-Support-teamwave was created by and is maintained by **Alok**
+Support-teamwave maintained by **Alok**
 
 
 
