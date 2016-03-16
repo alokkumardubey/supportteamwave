@@ -1,139 +1,147 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!--facebook share -->
-      <meta property="og:url"           content="http://www.teamwave.com/" />
-      <meta property="og:type"          content="website" />
-      <meta property="og:title"         content="Teamwave.com" />
-      <meta property="og:description"   content="Hello" />
-      <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
-      <title>Social sharing page</title>
-      <meta property="og:title" content="My Shared Article Title" />
-      <meta property="og:description" content="Description of shared article" />
-      <meta property="og:url" content="http://teamwave.com" />
-      <meta property="og:image" content="http://example.com/foo.jpg" />
-      <link href="css/clean-blog.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-   </head>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!--facebook share -->
+        <meta property="og:url"           content="http://www.teamwave.com/" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Teamwave.com" />
+        <meta property="og:description"   content="Hello" />
+        <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+        <title>Social sharing page</title>
+        <meta property="og:title" content="My Shared Article Title" />
+        <meta property="og:description" content="Description of shared article" />
+        <meta property="og:url" content="http://teamwave.com" />
+        <meta property="og:image" content="http://example.com/foo.jpg" />
+        <link href="css/clean-blog.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
     <!-- Set your background image for this header on the line below. -->
-   <body style="background-image: url('img/home-bg.jpg')">
-      <!-- Navigation -->
-      <!-- Page Header -->
-     
-      <header  >
-         <div>
-            <h2 class="text-center first-title">Love TeamWave? Share with Your Network.</h2>
-         </div>
-         <ul class="listing">
-            <li>
-               <a style="background-color: #415E9B; " href="https://www.facebook.com/sharer/sharer.php?u=http://www.teamwave.com" onclick="javascript:window.open(this.href,
-                  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-               <i class="fa fa-facebook fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-            <li>
-               <a style="background-color: #0077B5;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button%2Fparameters&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&text=Check%20out%20http://www.teamwave.com/%20-%20integrated%20suite%20of%20business%20apps%20to%20manage-%20&hashtags=CRM%2CProjects%2CHRM&tw_p=tweetbutton&via=goteamwave" >
-               <i class="fa fa-twitter fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-            <li>
-               <a style="background-color: #01689F;" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.teamwave.com&title=Free%20productivity%20tools%20for%20small%20business
-                  &summary=Everything%20your%20business%20needs:%20CRM,%20Project%20Management,%20HRMS,%20Invoicing%20and%20more.%20Free%20for%20small%20and%20medium%20companies.&source=LinkedIn"
-                  onclick="window.open(this.href, 'mywin',
-                  'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-               <i class="fa fa-linkedin fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-            <li>
-               <a style="background-color: #D04338;" href="https://plus.google.com/share?url={http://www.teamwave.com/}" onclick="javascript:window.open(this.href,
-                  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-               <i class="fa fa-google-plus fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-            <li >
-               <a style="background-color: #CA242C;" href="https://www.pinterest.com/pin/create/link/?url=http://www.teamwave.com/&media=https://s-media-cache-ak0.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg&description=Hello%20World" onclick="javascript:window.open(this.href,
-                  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">
-               <i class="fa fa-pinterest fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-            <li>
-               <a style="background-color: gray;" href="mailto:?subject=Try out TeamWave - free suite of business apps&amp;body=TeamWave helps you manage your company's business functions like Project Management, CRM, HR by integrating the apps in a single platform.Sign up Today- http://www.Teamwave.com"
-                  >
-               <i class="fa fa-envelope-o fa-stack-1x fa-inverse bg-area"></i>
-               </a>
-            </li>
-         </ul>
-      </header>
-      <!-- Main Content -->
-      <!-- jQuery -->
-      <script src="js/jquery.js"></script>
-  
-      <!-- Load twitter SDK for JavaScript -->
-      <script>
-         window.twttr = (function(d, s, id) {
-         var js, fjs = d.getElementsByTagName(s)[0],
-         t = window.twttr || {};
-         if (d.getElementById(id)) return t;
-         js = d.createElement(s);
-         js.id = id;
-         js.src = "https://platform.twitter.com/widgets.js";
-         fjs.parentNode.insertBefore(js, fjs);
-         
-         t._e = [];
-         t.ready = function(f) {
-         t._e.push(f);
-         };
-         
-         return t;
-         }(document, "script", "twitter-wjs"));
-      </script>
-      <!-- Load Facebook SDK for JavaScript -->
-      <script>
-         $('a.facebook-bg').click(function(event){
-         event.preventDefault();
-         event.stopPropagation();
-         FB.ui({
-         method: 'share',
-         href: 'http://url_of_your_page'
-         }, function(response){});
-         });
-      </script>
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) return;
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-         fjs.parentNode.insertBefore(js, fjs);
-         }(document, 'script', 'facebook-jssdk'));
-      </script>
-      <!--google share button -->
-      <script>
-         window.___gcfg = {
-         lang: 'en-US',
-         parsetags: 'onload'
-         };
-      </script>
-      <script
-         type="text/javascript"
-         async defer
-         src="//assets.pinterest.com/js/pinit.js"
-         ></script>
-      <script type="text/javascript">
-         (function(d){
-         var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
-         p.type = 'text/javascript';
-         p.async = true;
-         p.src = '//assets.pinterest.com/js/pinit.js';
-         f.parentNode.insertBefore(p, f);
-         }(document));
-      </script>
-      <script src="https://apis.google.com/js/platform.js" async defer></script>
-      <link rel="canonical" href="http://www.teamwave.com/" />
-   </body>
+    <body style="background-image: url('img/home-bg.jpg')">
+        <!-- Navigation -->
+        <!-- Page Header -->
+        
+        <header  >
+            <div>
+                <h2 class="text-center first-title">Love TeamWave? Share with Your Network.</h2>
+            </div>
+            <ul class="listing">
+                <li>
+                    <a style="background-color: #415E9B; " href="https://www.facebook.com/sharer/sharer.php?u=http://www.teamwave.com" onclick="javascript:window.open(this.href,
+                        '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="background-color: #0077B5;" href="https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button%2Fparameters&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&text=Check%20out%20http://www.teamwave.com/%20-%20integrated%20suite%20of%20business%20apps%20to%20manage-%20&hashtags=CRM%2CProjects%2CHRM&tw_p=tweetbutton&via=goteamwave" >
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="background-color: #01689F;" href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.teamwave.com&title=Free%20productivity%20tools%20for%20small%20business
+                        &summary=Everything%20your%20business%20needs:%20CRM,%20Project%20Management,%20HRMS,%20Invoicing%20and%20more.%20Free%20for%20small%20and%20medium%20companies.&source=LinkedIn"
+                        onclick="window.open(this.href, 'mywin',
+                        'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="background-color: #D04338;" href="https://plus.google.com/share?url={http://www.teamwave.com/}" onclick="javascript:window.open(this.href,
+                        '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                        <i class="fa fa-google-plus fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+                <li >
+                    <a style="background-color: #CA242C;" href="https://www.pinterest.com/pin/create/link/?url=http://www.teamwave.com/&media=http://www.teamwave.com/static/img/landing-pm-xl.jpg&description=TeamWave-%20integrated%20suite%20of%20business%20apps:%20CRM,%20Projects,%20HRM" onclick="javascript:window.open(this.href,
+                        '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=400');return false;">
+                        <i class="fa fa-pinterest fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+                <li>
+                    <a style="background-color: gray;" href="mailto:?subject=Try out TeamWave - free suite of business apps&amp;body=TeamWave helps you manage your company's business functions like Project Management, CRM, HR by integrating the apps in a single platform.Sign up Today- http://www.Teamwave.com"
+                        >
+                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse bg-area"></i>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <!-- Main Content -->
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        
+        <!-- Load twitter SDK for JavaScript -->
+        <script>
+        window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        
+        t._e = [];
+        t.ready = function(f) {
+        t._e.push(f);
+        };
+        
+        return t;
+        }(document, "script", "twitter-wjs"));
+        </script>
+        <!-- Load Facebook SDK for JavaScript -->
+        <script>
+        $('a.facebook-bg').click(function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        FB.ui({
+        method: 'share',
+        href: 'http://url_of_your_page'
+        }, function(response){});
+        });
+        </script>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!--google share button -->
+        <script>
+        window.___gcfg = {
+        lang: 'en-US',
+        parsetags: 'onload'
+        };
+        </script>
+        <script
+        type="text/javascript"
+        async defer
+        src="//assets.pinterest.com/js/pinit.js"
+        ></script>
+        <script type="text/javascript">
+        (function(d){
+        var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+        }(document));
+        </script>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        <link rel="canonical" href="http://www.teamwave.com/" />
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-66978601-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+    </body>
 </html>
